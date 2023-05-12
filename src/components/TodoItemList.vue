@@ -2,7 +2,7 @@
   <div class="todoItemList list-group w-auto">
     <transition-group name="list" tag="section">
       <TodoItem
-        v-for="(todo, idx) in todos"
+        v-for="(todo) in todos"
         :todo="todo"
         @remove="remove"
         @checked="checked"
